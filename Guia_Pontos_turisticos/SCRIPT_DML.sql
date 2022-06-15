@@ -55,7 +55,7 @@ CREATE TABLE cliente (
     cpf                    NUMBER NOT NULL,
     nome                   VARCHAR2(100) NOT NULL,
     sexo                   CHAR(1) NOT NULL,
-    data_ades„o            DATE NOT NULL,
+    data_ades√£o            DATE NOT NULL,
     tip_cli_id_tip_cli     NUMBER NOT NULL,
     atv_cli_id_ativ_cli    NUMBER NOT NULL,
     estado_civil_id_civil  NUMBER NOT NULL,
@@ -172,7 +172,7 @@ ALTER TABLE estado ADD CONSTRAINT estado_pk PRIMARY KEY ( id_estado );
 
 CREATE TABLE estado_civil (
     id_civil   NUMBER NOT NULL,
-    descriÁ„o  VARCHAR2(15) NOT NULL
+    descri√ß√£o  VARCHAR2(15) NOT NULL
 );
 
 ALTER TABLE estado_civil ADD CONSTRAINT estado_civil_pk PRIMARY KEY ( id_civil );
